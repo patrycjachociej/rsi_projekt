@@ -4,8 +4,8 @@ Projekt RSI - Wypożyczalnia
 
 API:
 
-API CRUD
-	GET
+API CRUD:
+	GET:
 		/ksiazka
 		/ksiazka/id_ksiazki
 		/ksiazka/id_ksiazki/wypozyczenie
@@ -39,7 +39,7 @@ API CRUD
 		/wyszukaj/autor/<HASŁO_DO_WYSZUKANIA>
 		/wyszukaj/wydawca/<HASŁO_DO_WYSZUKANIA>
 		
-	POST
+	POST:
 		/autor
 		/ksiazka
 		/uzytkownik
@@ -48,7 +48,7 @@ API CRUD
 		/subskrybcje
 		/wydawca
 		
-	PUT
+	PUT:
 		/autor/id_autora
 		/ksiazka/id_ksiazki
 		/sztuka_ksiazki/s/id_ksiazki
@@ -57,7 +57,7 @@ API CRUD
 		/wypozyczenie/id_wypozyczenia
 		/subskrybcje/id_subskrypcji
 	
-	DELETE
+	DELETE:
 		/autor/id_autora
 		/uzytkownik/id_uzytkownika
 		/wydawca/id_wydawcy
@@ -77,7 +77,7 @@ ____________________________________________________________
 
 API wypożyczalnia:
 
-GET
+GET:
 	/wyszukaj/wszystko/<HASŁO_DO_WYSZUKANIA>
 	/wyszukaj/ksiazka/<HASŁO_DO_WYSZUKANIA>
 	/wyszukaj/autor/<HASŁO_DO_WYSZUKANIA>
@@ -101,7 +101,7 @@ GET
 	/index
 	
 	
-POST
+POST:
 	/ksiazka/id_ksiazki/wypozycz
 	/sztuka_ksiazki/k/id_ksiazki
 	/uzytkownik
@@ -110,7 +110,7 @@ POST
 	/autor
 	/subskrybcje
 	
-PUT
+PUT:
 	/wypozyczenie/id_wypozyczenia/zwroc
 	/sztuka_ksiazki/s/id_sztuki_ksiazki
 	/uzytkownik/id_uzytkownika
@@ -120,7 +120,7 @@ PUT
 	/wydawca/id_wydawcy
 	/subskrybcje/id_subskrybcji
 	
-DELETE
+DELETE:
 	/uzytkownik/id_uzytkownika
 	/sztuka_ksiazki/s/id_sztuki_ksiazki
 	/ksiazka/id_ksiazki
