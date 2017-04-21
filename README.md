@@ -16,7 +16,7 @@ API:
 		/ksiazka/id_ksiazki/subskrybcje
 		
 		/sztuka_ksiazki
-		/sztuka_ksiazki/s/id_sztuki_ksiazki    // brak
+		/sztuka_ksiazki/s/id_sztuki_ksiazki
 		/sztuka_ksiazki/k/id_ksiazki  // brak
 		
 		/uzytkownik    // brak
