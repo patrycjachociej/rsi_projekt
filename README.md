@@ -47,7 +47,7 @@ API:
 		/autor    ($imie, $nazwisko, $data_urodzenia, $stan)
 		/ksiazka    ($tytul, $id_autora, $id_wydawcy, $data_wydania, $stan, $opis, $link)
 		/uzytkownik   ($mail)
-		/sztuka_ksiazki
+		/sztuka_ksiazki    (dodawanie automatyczne po kliknięciu przycisku - 'dodaj_sztuke_ksiazki.php)
 		/wypozyczenie
 		/subskrybcje
 		/wydawca    ($wydawca, $stan)
