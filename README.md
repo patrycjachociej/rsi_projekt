@@ -43,15 +43,16 @@ API:
 		/wyszukaj/autor/<HASŁO_DO_WYSZUKANIA>
 		/wyszukaj/wydawca/<HASŁO_DO_WYSZUKANIA>
 		
-	POST:
-		/autor
-		/ksiazka
-		/uzytkownik
+	POST (dodawanie danych do bazy):
+		/autor    ($imie, $nazwisko, $data_urodzenia, $stan)
+		/ksiazka    ($tytul, $id_autora, $id_wydawcy, $data_wydania, $stan, $opis, $link)
+		/uzytkownik   ($mail)
 		/sztuka_ksiazki
 		/wypozyczenie
 		/subskrybcje
-		/wydawca
+		/wydawca    ($wydawca, $stan)
 		
+	/* usunięte - dodawanie danych przez post 
 	PUT:
 		/autor/id_autora
 		/ksiazka/id_ksiazki
@@ -60,6 +61,7 @@ API:
 		/wydawca/id_wydawcy
 		/wypozyczenie/id_wypozyczenia
 		/subskrybcje/id_subskrypcji
+	*/
 	
 	DELETE:
 		/autor/id_autora
