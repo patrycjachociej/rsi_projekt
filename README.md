@@ -16,40 +16,40 @@ API:
 		/ksiazka/id_ksiazki/subskrybcje
 		
 		/sztuka_ksiazki
-		/sztuka_ksiazki/s/id_sztuki_ksiazki
-		/sztuka_ksiazki/k/id_ksiazki
+		/sztuka_ksiazki/s/id_sztuki_ksiazki    // brak
+		/sztuka_ksiazki/k/id_ksiazki  // brak
 		
-		/uzytkownik
-		/uzytkownik/id_uzytkownika
-		/uzytkownik/id_uzytkownika/wypozyczenie
-		/uzytkownik/id_uzytkownika/subskrybcje
+		/uzytkownik    // brak
+		/uzytkownik/id_uzytkownika    // brak
+		/uzytkownik/id_uzytkownika/wypozyczenie    // brak
+		/uzytkownik/id_uzytkownika/subskrybcje    // brak
 		
 		/wypozyczenie
 		/wypozyczenie/id_wypozyczenia
 		
-		/subskrybcje
-		/subskrybcje/id_subskrypcji
+		/subskrybcje    // brak
+		/subskrybcje/id_subskrypcji    // brak
 		
 		/wydawca
 		/wydawca/id_wydawcy
-		/wydawca/id_wydawcy/ksiazka
+		/wydawca/id_wydawcy/ksiazka    // brak
 		
 		/autor
 		/autor/id_autora
-		/autor/id_autora/ksiazka
+		/autor/id_autora/ksiazka    // brak
 		
-		/wyszukaj/wszystko/<HASŁO_DO_WYSZUKANIA>
-		/wyszukaj/ksiazka/<HASŁO_DO_WYSZUKANIA>
-		/wyszukaj/autor/<HASŁO_DO_WYSZUKANIA>
-		/wyszukaj/wydawca/<HASŁO_DO_WYSZUKANIA>
+		/wyszukaj/wszystko/<HASŁO_DO_WYSZUKANIA>    // brak
+		/wyszukaj/ksiazka/<HASŁO_DO_WYSZUKANIA>    // brak
+		/wyszukaj/autor/<HASŁO_DO_WYSZUKANIA>    // brak
+		/wyszukaj/wydawca/<HASŁO_DO_WYSZUKANIA>    // brak
 		
 	POST (dodawanie danych do bazy):
 		/autor    ($imie, $nazwisko, $data_urodzenia, $stan)
 		/ksiazka    ($tytul, $id_autora, $id_wydawcy, $data_wydania, $stan, $opis, $link)
 		/uzytkownik   ($mail)
 		/sztuka_ksiazki    (dodawanie automatyczne po kliknięciu przycisku - 'dodaj_sztuke_ksiazki.php)
-		/wypozyczenie
-		/subskrybcje
+		/wypozyczenie  //brak
+		/subskrybcje  // brak
 		/wydawca    ($wydawca, $stan)
 		
 	/* usunięte - dodawanie danych przez post 
