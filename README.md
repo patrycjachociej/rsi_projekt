@@ -63,7 +63,7 @@ API:
 		/subskrybcje/id_subskrypcji
 	*/
 	
-	DELETE:
+	DELETE:  (zmienione na GET)
 		/autor/id_autora
 		/uzytkownik/id_uzytkownika
 		/wydawca/id_wydawcy
