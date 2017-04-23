@@ -57,7 +57,7 @@ API:
 		/autor/id_autora
 		/ksiazka/id_ksiazki
 		/sztuka_ksiazki/s/id_ksiazki
-		/uzytkownik/id_uzytkownika
+		/uzytkownik/id_uzytkownika    // brak
 		/wydawca/id_wydawcy
 		/wypozyczenie/id_wypozyczenia
 		/subskrybcje/id_subskrypcji
