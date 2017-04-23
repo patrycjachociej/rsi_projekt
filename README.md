@@ -64,13 +64,13 @@ API:
 	*/
 	
 	DELETE:  (zmienione na GET)
-		/autor/id_autora
-		/uzytkownik/id_uzytkownika
-		/wydawca/id_wydawcy
-		/sztuka_ksiazki/s/id_ksiazki
-		/wypozyczenie/id_wypozyczenia
-		/subskrybcje/id_subskrypcji
-		/ksiazka/id_ksiazki
+		/autor/id_autora   (usun_autora.php?id_autora=$id_autora)
+		/uzytkownik/id_uzytkownika   brak
+		/wydawca/id_wydawcy   (usun_wydawce.php?id_wydawcy=$id_wydawcy)
+		/sztuka_ksiazki/s/id_ksiazki   (usun_sztuki_ksiazki.php?id_autora=$id_sztuki_ksiazki)
+		/wypozyczenie/id_wypozyczenia   (usun_wypozyczenie.php?id_wypozyczenia=$id_wypozyczenia)
+		/subskrybcje/id_subskrypcji   (usun_subskrybcje.php?id_subskrybcji=$id_subskrybcji)
+		/ksiazka/id_ksiazki   (usun_ksiazke.php?id_ksiazki=$id_ksiazki)
   __________________________________________________________
 
 API integracja:
