@@ -38,10 +38,10 @@ API:
 		/autor/id_autora
 		/autor/id_autora/ksiazka    // brak
 		
-		/wyszukaj/wszystko/<HASŁO_DO_WYSZUKANIA>    // brak
-		/wyszukaj/ksiazka/<HASŁO_DO_WYSZUKANIA>    // brak
-		/wyszukaj/autor/<HASŁO_DO_WYSZUKANIA>    // brak
-		/wyszukaj/wydawca/<HASŁO_DO_WYSZUKANIA>    // brak
+		/wyszukaj/wszystko/<HASŁO_DO_WYSZUKANIA>    
+		/wyszukaj/ksiazka/<HASŁO_DO_WYSZUKANIA>    
+		/wyszukaj/autor/<HASŁO_DO_WYSZUKANIA>   
+		/wyszukaj/wydawca/<HASŁO_DO_WYSZUKANIA>    
 		
 	POST (dodawanie danych do bazy):
 		/autor    ($imie, $nazwisko, $data_urodzenia, $stan)
